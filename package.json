@@ -1,0 +1,24 @@
+{
+  "name": "catnastch",
+  "version": "1.0.0",
+  "description": "- Acesse o [index](./public/index/index.html) para visualizar a lista de titulos - Acesse o [bandersnatch](./public/bandersnatch/index.html) para acessar o titulo base do projeto",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server assets --cors -p 8081",
+    "public": "npx http-server public --cors -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rychardvale/catsnatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rychardvale/catsnatch/issues"
+  },
+  "homepage": "https://github.com/rychardvale/catsnatch#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
