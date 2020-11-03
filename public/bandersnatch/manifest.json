@@ -1,0 +1,73 @@
+{
+    "hostTag": "$HOST",
+    "fileResolutionTag": "$RESOLUTION",
+    "localHost":"http://127.0.0.1:8081",
+    "productionHost": "",
+    "codec": "video/mp4; codecs=\"avc1.640015, mp4a.40.2\"",
+    "inicio": {
+        "url": "$HOST/timeline/inicio/inicio-8.042667-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 5,
+        "options": ["Nurinha", "Akan"],
+        "description": ["Pegar Nurinha", "Pegar Akan"],
+        "defaultOption": "Ozzy"
+    },
+    "akan": {
+        "url": "$HOST/timeline/akan/akan-pegar-14.933333-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 10,
+        "defaultOption": "akanidle"
+    },
+    "akanidle":{
+        "url": "$HOST/timeline/akan/akan-esperando-6.122667-$RESOLUTION.mp4",
+        "options": ["akancarinho", "akandevolver"],
+        "description": ["Fazer carinho no 'pspspsps'", "Devolver o 'pspspsps'"],
+        "at": 1,
+        "endAt": 4,
+        "defaultOption": "akandevolver"
+    },
+    "akancarinho": {
+        "url": "$HOST/timeline/akan/akan-carinho-10.752000-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 7,
+        "defaultOption": "akanidle"
+    },
+    "akandevolver":{ 
+        "url": "$HOST/timeline/akan/akan-devolver-8.192000-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 5,
+        "defaultOption": "Inicio"
+    },
+    "nurinha": {
+        "url": "$HOST/timeline/nurinha/nurinha-pegar-11.626667-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 8,
+        "defaultOption": "nurinhaidle"
+    },
+    "nurinhaidle":{
+        "url": "$HOST/timeline/nurinha/nurinha-esperando-7.552000-$RESOLUTION.mp4",
+        "options": ["nurinhacarinho", "nurinhadevolver"],
+        "description": ["Fazer carinho no 'pspspsps'", "Devolver o 'pspspsps'"],
+        "at": 1,
+        "endAt": 5,
+        "defaultOption": "nurinhadevolver"
+    },
+    "nurinhacarinho": {
+        "url": "$HOST/timeline/nurinha/nurinha-carinho-11.925333-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 7,
+        "defaultOption": "nurinhaidle"
+    },
+    "nurinhadevolver":{ 
+        "url": "$HOST/timeline/nurinha/nurinha-devolver-11.818667-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 5,
+        "defaultOption": "Inicio"
+    },
+    "ozzy": {
+        "url": "$HOST/timeline/ozzy/ozzy-21.269333-$RESOLUTION.mp4",
+        "at": 1,
+        "endAt": 18,
+        "defaultOption": "Inicio"
+    }
+} 
