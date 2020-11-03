@@ -12,7 +12,6 @@
 ![titulos](./prints/demo.png)
 
 ### Créditos
-- Projeto foi feito durante a JS Expert Week com tutoria de Erick Wendel
-- Layout da lista foi baseada no  codepen do [Carlos Avila
-](https://codepen.io/cb2307/pen/XYxyeY)
+- Projeto feito durante a JS Expert Week com tutoria de [Erick Wendel](https://github.com/erickwendel)
+- Layout da lista foi baseada no  codepen do [Carlos Avila](https://codepen.io/cb2307/pen/XYxyeY)
 - Layout do video foi baseado no codepen do [Benjamin Pott](https://codepen.io/benjipott/pen/JELELN)
