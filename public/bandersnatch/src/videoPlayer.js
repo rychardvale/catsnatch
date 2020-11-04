@@ -47,8 +47,11 @@ class VideoMediaPlayer {
         if (!raiseOptions) return;
         
         if(this.activeItem.url === this.selected.url) return;
+
         const hasOptions = this.selected.options
-        if (hasOptions) this.videoComponent.configureModal(this.selected.options, this.selected.description)
+        const selected = this.selected
+        if (hasOptions) this.videoComponent.configureModal({ selected })
+
         this.activeItem = this.selected;
     }
 
