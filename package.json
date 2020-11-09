@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "assets": "npx http-server assets --cors -p 8081",
-    "public": "npx http-server public --cors -p 8080"
+    "public": "npx http-server public --cors -p 8080",
+    "dev": "concurrently \"npm run assets\" \"npm run public\""
   },
   "repository": {
     "type": "git",
